@@ -211,6 +211,12 @@ width: 40px;
   width: 40%;
 }
 
+#big-box form input[type="submit"]:hover{
+  color: white;
+  background-color: #001141;
+}
+
+
 
 
 
@@ -236,7 +242,7 @@ width: 40px;
   background-size: cover;
   background-size: 60px;
   height: 100%;
-  width: 50%;
+  width: 55%;
 }
 
 #img-form>div:last-child{
@@ -331,7 +337,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 #img-form>div+div form>div:first-child input{
-  width: 112%;
+  width: 100%;
   margin-right: 10px;
 }
 

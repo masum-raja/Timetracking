@@ -1,4 +1,16 @@
 /********************************************************* Heading section start **********************************************************/
+#nav{
+  width: 100%;
+  position: sticky;
+  top: 0;
+  bottom: auto;
+  z-index: 9999999;
+  padding-top: 0;
+  padding-bottom: 10px;
+  background-color: #fff;
+  box-shadow: 0 1px 1em 0 rgb(56 49 68 / 15%);
+}
+
 
 #heading {
   text-align: center;
@@ -215,9 +227,6 @@ width: 40px;
   color: white;
   background-color: #001141;
 }
-
-
-
 
 
 /**************************************************  Big-Box  section end  ***************************************************************/

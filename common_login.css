@@ -1,0 +1,132 @@
+
+/************************************************** login page Section Start ***********************************************************/
+h1,
+h3,
+h3 {
+  color: #64657e;
+  font-family: "Circular", -apple-system, BlinkMacSystemFont, system, sans-serif;
+}
+
+#logo {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+#logo > div + div img:last-child {
+  width: 50px;
+  border-radius: 10px;
+}
+
+#setup {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  text-align: center;
+  gap: 80px;
+  margin-bottom: 50px;
+}
+
+#setup > div p {
+  font-family: "Circular", -apple-system, BlinkMacSystemFont, system, sans-serif;
+}
+#setup > div:first-child {
+  width: 40%;
+  margin-top: 100px;
+}
+
+#setup > div:first-child span {
+  font-family: "Circular", -apple-system, BlinkMacSystemFont, system, sans-serif;
+  color: #7b7b91;
+}
+
+#setup h3 {
+  margin-bottom: -8px;
+}
+
+#setup > div:first-child img {
+  width: 115px;
+  margin-left: 20px;
+}
+
+#setup > div + div h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  line-height: 1.21;
+}
+
+#setup > div:last-child {
+  width: 50%;
+  height: 100%;
+}
+
+#setup > div:last-child a {
+  color: #00d68c;
+  text-decoration: none;
+  margin-left: 7px;
+  font-family: "Circular", -apple-system, BlinkMacSystemFont, system, sans-serif;
+}
+
+input {
+  box-sizing: border-box;
+  border: solid 2px #f2f1f2;
+  border-radius: 16px;
+  font-size: 18px;
+  outline: 0;
+  padding: 10px 20px;
+  width: 80%;
+  background: white;
+  height: 62px;
+  box-shadow: none;
+  color: #64657e;
+  margin-top: 20px;
+}
+
+form input[type="submit"] {
+  color: white;
+  background-color: #00d68c;
+  border: none;
+  font-weight: 600;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    background-color: #04b174;
+}
+
+
+#button-img > div {
+  box-sizing: border-box;
+  border: solid 2px #f2f1f2;
+  border-radius: 16px;
+  font-size: 18px;
+  outline: 0;
+  padding: 10px 20px;
+  width: 80%;
+  background: white;
+  height: 62px;
+  box-shadow: none;
+  color: #64657e;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#button-img > div:hover{
+    background-color: #f0efef;
+}
+
+#setup > div+div form+a{
+  font-size: 17px;
+}
+
+#button-img h4 {
+ margin-left: 65px;
+}
+
+/************************************************** login page Section end *************************************************************/

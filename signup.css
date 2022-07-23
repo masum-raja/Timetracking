@@ -1,0 +1,15 @@
+#button-img>div+p{
+    font-size: 14px;
+    margin-bottom: -10px;
+    color: #7b7b91;
+}
+
+#button-img> form input[type="password"]+p{
+    font-size: 14px;
+    color: #7b7b91;
+}
+
+#button-img> form input[type="password"]+p a{
+    font-size: 14px;
+}
+
